@@ -1,0 +1,19 @@
+<template>
+  <nav>
+    <div id="logo"></div>
+  </nav>
+</template>
+
+<style scoped>
+nav {
+  width: 100%;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#logo {
+  width: 200px;
+  height: 1rem;
+  background-color: #d9d9d9;
+}
+</style>
