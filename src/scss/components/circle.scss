@@ -1,0 +1,9 @@
+@use "@/scss/utilities/variables.scss" as *;
+
+div {
+  height: 16px;
+  width: 16px;
+  background-color: $primary-color;
+  border-radius: 8px;
+  margin: 0 0.5rem;
+}

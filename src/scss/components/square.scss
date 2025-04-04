@@ -1,0 +1,11 @@
+@use "@/scss/utilities/variables" as *;
+@use "@/scss/utilities/mixins" as *;
+
+button {
+  height: 80px;
+  width: 150px;
+  background-color: $primary-color;
+  border-radius: 5px;
+  border: 0px;
+  @include pointer;
+}
