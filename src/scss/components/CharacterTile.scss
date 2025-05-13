@@ -1,0 +1,30 @@
+.characterContainer {
+  width: 388px;
+  height: 92px;
+  background-color: #1E2328;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+  position: relative;
+}
+
+.audioSlots {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.material-symbols-rounded {
+  color: #CBD2D3;
+}
+
+.pips {
+  position: absolute;
+  bottom: -5px;
+  left: 10px;
+  display: flex;
+  gap: 5px;
+}

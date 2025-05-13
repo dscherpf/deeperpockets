@@ -1,0 +1,9 @@
+@use "@/scss/utilities/variables.scss" as *;
+
+div {
+  height: 9px;
+  width: 42px;
+  background-color: $primary-grey-color;
+  border: 1px solid #B6B6B6;
+  transform: skew(-30deg);
+}

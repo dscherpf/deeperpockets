@@ -1,0 +1,51 @@
+.container {
+  max-width: 1280px;
+  padding: 30px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.game {
+  margin: 0 auto;
+  display: flex;
+  padding-top: 64px;
+  align-items: center;
+  gap: 130px;
+}
+
+.characterTiles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.audioTiles {
+  width: 300px;
+  height: 300px;
+  padding: 5px 0;
+  background-color: #F6F6F6;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+  position: relative;
+  box-sizing: border-box;
+
+  $border: 1px;
+  background-clip: padding-box; /* !importanté */
+  border: solid $border transparent; /* !importanté */
+  border-radius: 1em;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -$border; /* !importanté */
+    border-radius: inherit; /* !importanté */
+    background: linear-gradient(180deg, #1078A4 0%, #1F9A95 100%);
+  }
+}

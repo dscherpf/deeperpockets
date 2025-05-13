@@ -9,21 +9,5 @@
 </template>
 
 <style lang="scss" scoped>
-div {
-  display: flex;
-  border-bottom: 1px solid #213547;
-  width: 100%;
-}
-
-h1 {
-  margin: 0;
-}
-
-section {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding-left: 10px;
-  justify-content: space-between;
-}
+@use "@/scss/components/TitleBar.scss"
 </style>
